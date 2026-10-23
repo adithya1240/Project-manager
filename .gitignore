@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Agent runtime state (per-machine snapshots and processed messages)
+.pm_agent_state/
+
+# Secrets: never commit keys or env files
+.env
+*.json
